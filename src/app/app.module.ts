@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ServersComponent } from './servers/servers.component';
 import { FormsModule } from '@angular/forms';
+import { TwoWayDatabindingComponent } from './two-way-databinding/two-way-databinding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ServersComponent
+    ServersComponent,
+    TwoWayDatabindingComponent
   ],
   imports: [
     BrowserModule,
