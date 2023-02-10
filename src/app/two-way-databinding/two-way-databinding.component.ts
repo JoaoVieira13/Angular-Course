@@ -9,15 +9,7 @@ export class TwoWayDatabindingComponent {
 
   username: string = "";
   existUsername: boolean = false;
-
-  checkUsername(){
-    if(this.username == ""){
-      this.existUsername = false;
-    }else{
-      this.existUsername = true;
-    }
-  }
-
+  
   resetPlayer(){
     this.username = "";
   }
